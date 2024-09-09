@@ -1,0 +1,86 @@
+.vh-50 {
+  height: 50vh;
+}
+
+form{
+  padding: 30px;
+  margin: 30px;
+}
+
+.form-group, .form-btn{
+  padding: 15px;
+  margin: 15px;
+  justify-content: center;
+}
+
+.gradient-custom {
+background: linear-gradient(to right, #1e3c72, #2a5298, #3a6073, #4b7291);
+}
+
+.card {
+background-color: rgba(255, 255, 255, 0.1) !important;
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.form-outline {
+position: relative;
+}
+
+.form-control-lg {
+border: none;
+border-bottom: 2px solid #a0b4c7;
+background-color: transparent;
+color: #fff;
+border-radius: 0;
+padding-left: 0;
+}
+
+.form-control-lg:focus {
+background-color: transparent;
+box-shadow: none;
+color: #fff;
+border-bottom-color: #fff;
+}
+
+.form-label {
+position: absolute;
+top: 0;
+left: 0;
+pointer-events: none;
+transition: 0.2s ease all;
+color: #a0b4c7;
+}
+
+.form-control-lg:focus ~ .form-label,
+.form-control-lg:not(:placeholder-shown) ~ .form-label {
+top: -20px;
+font-size: 12px;
+color: #fff;
+}
+
+.btn-outline-light {
+border: 2px solid #a0b4c7;
+border-radius: 30px;
+padding: 10px 30px;
+font-weight: bold;
+transition: all 0.3s ease;
+color: #a0b4c7;
+}
+
+.btn-outline-light:hover {
+background-color: #a0b4c7;
+color: #1e3c72;
+}
+
+.text-white-50 {
+color: #a0b4c7 !important;
+}
+
+.text-danger {
+color: #ff6b6b !important;
+}
+
+h2 {
+color: #fff;
+}
