@@ -3,7 +3,7 @@ import { FormBuilder, FormControl, ReactiveFormsModule, FormGroup, Validators } 
 import { RouterLink, RouterOutlet, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
-import { LoginRequest } from '../../services/auth/loginRequest';
+import { LoginRequest } from '../../services/auth/login-request';
 import { LoginService } from '../../services/auth/login.service';
 
 
